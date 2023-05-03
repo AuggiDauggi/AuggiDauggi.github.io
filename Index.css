@@ -311,20 +311,40 @@ color: #150819;
 
   }
 
-  #chatbox {
-    text-align: center;
-    border: #000000;
-    position: absolute;
-    background-color: #f2f2f2;
+/*   #chatbox {
+    margin-right: auto;
     margin-left: auto;
+    background-color: aqua;
+    position: absolute;
 
-  margin-right: auto;
-  bottom: 0;  
-  width: 100%;
-  margin-top: 200px;
-  margin-bottom: 100px;
-  padding-top: 140px;
-  padding-bottom: 100px;
-  box-shadow:  0px -5px #000000;
+    margin: 2%;
+    width: 85%;
+    color: #252525;
+    border: 10px solid transparent;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-image-slice: 100%;
+      border-image-source: none;
+      border-image-width: 1;
+      padding: 30px;
+      margin-bottom: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-image: url(Bilder/border\ metal.svg) 25 stretch;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-image-slice: 25;
+      border-image-source: url("Bilder/border\ metal.svg");
+      border-image-width: 1;
+    -o-border-image: url(Bilder/border\ metal.svg) 33 stretch;
+    border-image: url(Bilder/border\ metal.svg) 33 stretch;
+      border-image-slice: 33;
+    border-image-slice: 33%;
+    background-color: #f2f2f2;
+    font-family: kulfont;
+    box-shadow:  5px 5px 0px 3px #150819;
+    height: 400px;
   }
-
+ */
