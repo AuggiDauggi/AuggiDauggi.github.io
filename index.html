@@ -32,8 +32,34 @@
   </video>
 </div>
 
-<div class="box bottombox" id="litenvenstre">
+<div class="box " id="litenvenstre">
   <p>Se på den lille fyren her! <hr> Bare se på han danse... wow</p>
+</div>
+
+<div class="box bottombox" id="storvenstre">
+  <p>Klikk på knappen for å få koordinatene dine</p>
+
+  <button onclick="getLocation()">Klikk</button>
+  
+  <p id="demo"></p>
+  
+  <script>
+  var x = document.getElementById("demo");
+  
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+      x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+  }
+  
+  function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+  }
+  </script>
+  
 </div>
 
 </div>
@@ -42,14 +68,18 @@
   <div class="box" id="litenhøyre">
     <p>Velkommen til min nettside! <hr>Hei jeg Heter August, og dette er min portfolio nettside. Du kan trykke på knappene på toppen for å se må mitt arbeid, og du kan se på videoen til venstre for å se på min showreel. <hr>NB! Denne nettsiden er ikke tipasset til mobil eller små skjermer!</p>
   </div>
-  <div class="box bottombox" id="storhøyre">
+  <div class="box " id="storhøyre">
     <img src="Bilder/Dancin lil guy.gif" alt="">
+  </div>
+  <div class="box bottombox" id="litenhøyre">
+    <p>Koordinat boks<hr>Dette er bare noe jeg tester ut..</p>
   </div>
 </div>
 
 
 
 </div>
+
 <footer>
 
     <img src="Bilder/Dancin lil guy.gif" alt="dancin lil guy">
